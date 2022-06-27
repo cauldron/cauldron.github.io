@@ -1,0 +1,61 @@
+.companyname {
+  font-family: 'Playfair Display', serif;
+  color:  #71797E;
+  margin-top: 0%;
+  margin-bottom: 0;
+  font-size: 8.0rem;
+  line-height: 1.5;
+}
+
+.bw_logo {
+    object-fit: contain;
+    width: 100%;
+    padding-top: 2.75rem;
+}
+
+@media screen and (max-width: 400px) {
+    .bw_logo { display: none; }
+}
+
+.logo_container {
+   height: 14rem;
+}
+
+a {
+  color: #33558E;
+}
+
+.tile-background {
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 14rem;
+
+    border-bottom: thick double #71797E;
+
+    background-image: url("../images/spikes.png");
+    background-repeat: repeat;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    letter-spacing: .2rem;
+    list-style: none;
+    padding-top: 0;
+    margin-top: -1.2rem;
+}
+
+.navbar li {
+    position: relative;
+    float: left;
+    margin-right: 35px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #71797E;
+}
