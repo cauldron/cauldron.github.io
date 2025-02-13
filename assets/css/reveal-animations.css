@@ -1,0 +1,53 @@
+/* Base reveal class */
+.reveal {
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade up animation */
+.reveal[data-animation="fade-up"] {
+    transform: translateY(50px);
+}
+
+/* Fade in animation */
+.reveal[data-animation="fade-in"] {
+    transform: translateY(0);
+}
+
+/* Fade right animation */
+.reveal[data-animation="fade-right"] {
+    transform: translateX(-50px);
+}
+
+/* Fade left animation */
+.reveal[data-animation="fade-left"] {
+    transform: translateX(50px);
+}
+
+/* Scale up animation */
+.reveal[data-animation="scale-up"] {
+    transform: scale(0.9);
+}
+
+/* Stagger child animations */
+.reveal[data-animation="stagger"] > * {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease-in-out;
+}
+
+.reveal.active[data-animation="stagger"] > * {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal.active[data-animation="stagger"] > *:nth-child(1) { transition-delay: 0.1s; }
+.reveal.active[data-animation="stagger"] > *:nth-child(2) { transition-delay: 0.2s; }
+.reveal.active[data-animation="stagger"] > *:nth-child(3) { transition-delay: 0.3s; }
+.reveal.active[data-animation="stagger"] > *:nth-child(4) { transition-delay: 0.4s; }
+.reveal.active[data-animation="stagger"] > *:nth-child(5) { transition-delay: 0.5s; } 
