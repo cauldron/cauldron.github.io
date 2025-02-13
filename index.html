@@ -4,49 +4,71 @@
 
 <!-- meta tags -->
 <meta charset="utf-8">
-<meta name="keywords" content="brightway, lca, life cycle assessment, paas, saas" />
-<meta name="description" content="Cauldron Landing Page" />
-<meta name="author" content="www.cauldron.ch/index-new" />
+<meta name="keywords" content="bootstrap 5, premium, multipurpose, sass, scss, saas, rtl" />
+<meta name="description" content="Bootstrap 5 Landing Page Template" />
+<meta name="author" content="www.themeht.com" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Title -->
-<title>Cauldron Solutions</title>
+<title>Cauldron Solutions - Home</title>
 
 <!-- Favicon Icon -->
-<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
 <!-- inject css start -->
 
 <!--== bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
 <!--== animate -->
-<link href="css/animate.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
 
 <!--== line-awesome -->
-<link href="css/line-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/line-awesome.min.css" rel="stylesheet" type="text/css" />
 
 <!--== themify-icons -->
-<link href="css/themify-icons.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/themify-icons.css" rel="stylesheet" type="text/css" />
 
 <!--== magnific-popup -->
-<link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css" />
 
 <!--== owl.carousel -->
-<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
 
 <!--== lightslider -->
-<link href="css/lightslider.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/lightslider.min.css" rel="stylesheet" type="text/css" />
 
 <!--== spacing -->
-<link href="css/spacing.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/spacing.css" rel="stylesheet" type="text/css" />
 
 <!--== theme.min -->
-<link href="css/theme.min.css" rel="stylesheet" />
+<link href="assets/css/theme.min.css" rel="stylesheet" />
 
-<!--== icons -->  
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .icon-circle {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .icon-circle i {
+    font-size: 2rem;
+    display: block;
+  }
+  .service-card {
+    text-align: center;
+  }
+</style>
 
 <!-- inject css end -->
 
@@ -58,25 +80,47 @@
 
 <div class="page-wrapper">
 
+<!-- preloader start -->
+
+<div id="ht-preloader">
+  <div class="loader clear-loader">
+    <span></span>
+    <p>Cauldron.</p>
+  </div>
+</div>
+
+<!-- preloader end -->
+
 <!--header start-->
 
 <header class="site-header">
   <div id="header-wrap">
     <div class="container">
       <div class="row">
-        <!--menu start-->
         <div class="col">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <img src="images/logo.png" style="max-width:30rem; height:auto">
+            <a class="navbar-brand logo text-dark h2 mb-0" href="index.html">
+              <span class="text-primary fw-bold">Cauldron.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="solutions.html">Solutions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="brightway.html">Brightway</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="expertise.html">Our Expertise</a>
                 </li>
               </ul>
             </div>
-            <!-- <a class="btn btn-primary ms-8 d-none d-md-block" href="#">Buy Now</a> -->
+            <a class="btn btn-outline-primary ms-8 d-none d-md-block" href="contact.html">Contact</a>
           </nav>
         </div>
-        <!--menu end-->
       </div>
     </div>
   </div>
@@ -86,34 +130,50 @@
 
 
 <!--hero section start-->
+<section class="hero-section position-relative" data-bg-img="assets/images/misc/krzysztof-kowalik-2pnozU26QBo-unsplash.jpg" data-overlay="6">
+  <div class="overlay"></div>
+  <div class="container position-relative">
+    <div class="row min-vh-75 align-items-center">
+      <div class="col-12 col-lg-8 mx-auto">
+        <div class="hero-content text-center">
+          <!-- Badge -->
+          <div class="badge bg-white text-primary px-3 py-2 rounded-pill mb-4">
+            Open Source LCA Solutions
+          </div>
 
-<section>
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-12 col-lg-5 col-xl-6 order-lg-1 mb-8 mb-lg-0">
-        <!-- Image -->
-        <img src="images/work.jpg" class="img-fluid" alt="...">
-      </div>
-      <div class="col-12 col-lg-7 col-xl-6">
-        <!-- Heading -->
-        <h1 class="display-4 mt-3">
-          <span class="font-w-5" style="color: #AF982A ">Coming Soon </span> Brightway Cloud
-        </h1>
-        <!-- Text -->
-        <p class="lead text-muted">Combining real-time multi-user collaboration, intuitive interfaces, advanced modeling capabilities, and cloud computing to deliver reliable insights faster, Brightway Cloud enables you to integrate sustainability into the core of your decision making processes. If this vision resonates with you, we would love to hear from you.</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4dQb1zPHXnzC7T8jsJIV4s6SsbQSyHTI4a3-75w_NQi7YEg/viewform?usp=sf_link" class="btn btn-primary shadow me-1">
-          Register Interest
-        </a>
-        <a href="mailto:info@cauldron.ch" target="_blank" class="btn btn-outline-primary shadow me-1">
-          Email Us: info@cauldron.ch
-        </a>
+          <!-- Heading -->
+          <h1 class="display-4 text-white mb-4 fw-bold">
+            Take Control of Your
+            <span class="d-block">Sustainability Journey</span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="lead text-white mb-5 opacity-80">
+            Expert tools, data solutions, and technical support from the team behind Brightway—the leading open-source LCA framework.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap">
+            <a href="solutions.html" class="btn btn-white btn-lg">
+              Explore Solutions
+              <i class="las la-arrow-right ms-2"></i>
+            </a>
+            <a href="contact.html" class="btn btn-outline-light text-light btn-lg">
+              Talk to Our Experts
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- / .row -->
   </div>
-  <!-- / .container -->
-</section>
 
+  <!-- Bottom Shape -->
+  <div class="shape-1 bottom">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #F8FAFC;"></path>
+    </svg>
+  </div>
+</section>
 <!--hero section end-->
 
 
@@ -121,44 +181,297 @@
 
 <div class="page-content">
 
-<!--key value proposation start-->
-
-<!-- Key Value Proposition Section -->
-<section class="text-center">
+<!--services start-->
+<section class="services-section bg-light py-7 reveal">
   <div class="container">
-       <!-- Key Features for Brightway Cloud -->
-    <div class="row align-items-center mb-8 pb-5">
-      <div class="col-12">
-        <div class="p-5 rounded bg-light shadow">
-          <div class="row text-center">
-            <!-- Real-Time Collaboration -->
-            <div class="col-md-4 mb-4">
-              <div class="feature-item">
-                <div class="icon mb-3">
-                  <i class="fas fa-users fa-3x text-primary"></i>
+    <div class="row justify-content-center text-center mb-6">
+      <div class="col-12 col-md-12 col-lg-8">
+        <span class="text-primary fw-semibold mb-3 d-block">Our Services</span>
+        <h2 class="mb-2">Comprehensive LCA Solutions</h2>
+        <p class="lead text-secondary">Expert tools and support for your sustainability journey</p>
+      </div>
+    </div>
+
+    <!-- First Row - 3 cards -->
+    <div class="row g-4 mb-4">
+      <!-- Card 1 - LCA Software Migration -->
+      <div class="col-lg-4 reveal">
+        <div class="service-card bg-white p-5 rounded-3 h-100">
+          <div class="icon-wrapper">
+            <div class="icon-circle bg-primary-soft rounded-circle">
+              <i class="las la-sync text-primary"></i>
+            </div>
+          </div>
+          <h5 class="mb-3 text-dark">LCA Software Migration</h5>
+          <p class="mb-4 text-secondary">Migrate your LCA software to Brightway with zero data loss and minimal disruption</p>
+          <a class="link-primary text-decoration-none fw-semibold" href="solutions.html#lca-migration">
+            Learn More <i class="las la-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 2 - Data Solutions -->
+      <div class="col-lg-4 reveal" style="transition-delay: 200ms;">
+        <div class="service-card bg-white p-5 rounded-3 h-100">
+          <div class="icon-wrapper">
+            <div class="icon-circle bg-primary-soft rounded-circle">
+              <i class="las la-database text-primary"></i>
+            </div>
+          </div>
+          <h5 class="mb-3 text-dark">Data Solutions</h5>
+          <p class="mb-4 text-secondary">Harmonise, convert, and integrate your data across all major LCA data formats</p>
+          <a class="link-primary text-decoration-none fw-semibold" href="solutions.html#data-solutions">
+            Learn More <i class="las la-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 3 - Project Updates -->
+      <div class="col-lg-4 reveal" style="transition-delay: 400ms;">
+        <div class="service-card bg-white p-5 rounded-3 h-100">
+          <div class="icon-wrapper">
+            <div class="icon-circle bg-primary-soft rounded-circle">
+              <i class="las la-upload text-primary"></i>
+            </div>
+          </div>
+          <h5 class="mb-3 text-dark">Project Updates</h5>
+          <p class="mb-4 text-secondary">Update your LCA projects to use the latest ecoinvent data</p>
+          <a class="link-primary text-decoration-none fw-semibold" href="solutions.html#project-updates">
+            Learn More <i class="las la-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Row - 2 cards -->
+    <div class="row g-4 justify-content-center">
+      <!-- Card 4 - Self-Hosting -->
+      <div class="col-lg-4 reveal" style="transition-delay: 100ms;">
+        <div class="service-card bg-white p-5 rounded-3 h-100">
+          <div class="icon-wrapper">
+            <div class="icon-circle bg-primary-soft rounded-circle">
+              <i class="las la-server text-primary"></i>
+            </div>
+          </div>
+          <h5 class="mb-3 text-dark">Self-Hosting Brightway Setup</h5>
+          <p class="mb-4 text-secondary">Deploy and manage Brightway securely on your own infrastructure with expert support</p>
+          <a class="link-primary text-decoration-none fw-semibold" href="solutions.html#self-hosting">
+            Learn More <i class="las la-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 5 - Training -->
+      <div class="col-lg-4 reveal" style="transition-delay: 300ms;">
+        <div class="service-card bg-white p-5 rounded-3 h-100">
+          <div class="icon-wrapper">
+            <div class="icon-circle bg-primary-soft rounded-circle">
+              <i class="las la-graduation-cap text-primary"></i>
+            </div>
+          </div>
+          <h5 class="mb-3 text-dark">Training and Support</h5>
+          <p class="mb-4 text-secondary">Get your team up to speed with expert training and technical support</p>
+          <a class="link-primary text-decoration-none fw-semibold" href="solutions.html#training">
+            Learn More <i class="las la-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--services end-->
+
+
+<!--why choose us start-->
+<section class="why-choose-section py-8 position-relative bg-white reveal">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-6">
+      <div class="col-12 col-md-10 col-lg-8">
+        <span class="text-primary fw-semibold mb-3 d-block">Why Choose Us</span>
+        <h2 class="mb-2">Expert Support for Your Sustainability Transformation</h2>
+        <p class="lead text-secondary">From migration assistance to custom implementations, our team provides the expertise you need to make your sustainability workflows work for you.</p>
+      </div>
+    </div>
+
+    <div class="row g-4 mt-3">
+      <!-- Card 1 - Open Source Leadership -->
+      <div class="col-lg-4 reveal reveal-left">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="las la-code-branch"></i>
+          </div>
+          <div class="feature-content">
+            <h5>Open-Source Leadership</h5>
+            <p>Creators of Brightway, the leading open-source LCA software used by industry professionals and researchers worldwide</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 - Technical Excellence -->
+      <div class="col-lg-4 reveal" style="transition-delay: 0.2s;">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="las la-cogs"></i>
+          </div>
+          <div class="feature-content">
+            <h5>Technical Excellence</h5>
+            <p>Our team combines deep expertise in sustainability assessment with extensive software development experience, ensuring reliable and effective solutions</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 - Innovation Focus -->
+      <div class="col-lg-4 reveal reveal-right">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="las la-lightbulb"></i>
+          </div>
+          <div class="feature-content">
+            <h5>Innovation Focus</h5>
+            <p>We work at the forefront of sustainability assessment advancements, keeping you ahead of evolving requirements</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center text-center mt-7">
+      <div class="col-auto">
+        <a href="#" class="btn btn-primary shadow">Talk to our Experts</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--why choose us end-->
+
+<!--brightway start-->
+<section class="brightway-section py-8 position-relative reveal">
+  <div class="container">
+    <!-- Main Brightway Content -->
+    <div class="row justify-content-center text-center mb-7">
+      <div class="col-12 col-md-10 col-lg-8">
+        <span class="text-white-50 fw-semibold mb-3 d-block">Our Technology</span>
+        <h2 class="text-white mb-2">Backed by <span class="fw-bold">Brightway</span>, the Leading Open-Source LCA Framework</h2>
+        <p class="lead text-white-50">Our expertise comes from creating and maintaining Brightway, the most flexible, reliable, and performant LCA software ecosystem</p>
+      </div>
+    </div>
+
+    <!-- Features List -->
+    <div class="row mb-7">
+      <div class="col-lg-7">
+        <div class="feature-list">
+          <div class="feature-item d-flex align-items-start">
+            <div class="feature-icon-wrap">
+              <i class="las la-bolt text-white" style="font-size: 2rem;"></i>
+            </div>
+            <div class="ms-4">
+              <h5 class="text-white mb-2">Fast Performance</h5>
+              <p class="text-white-50 mb-0">Deliver quick, reliable results without the need for high-end hardware</p>
+            </div>
+          </div>
+
+          <div class="feature-item d-flex align-items-start">
+            <div class="feature-icon-wrap">
+              <i class="las la-bullseye text-white" style="font-size: 2rem;"></i>
+            </div>
+            <div class="ms-4">
+              <h5 class="text-white mb-2">Scenario Analysis</h5>
+              <p class="text-white-50 mb-0">De-risk your decision-making with comprehensive scenario analysis tools</p>
+            </div>
+          </div>
+
+          <div class="feature-item d-flex align-items-start">
+            <div class="feature-icon-wrap">
+              <i class="las la-map text-white" style="font-size: 2rem;"></i>
+            </div>
+            <div class="ms-4">
+              <h5 class="text-white mb-2">Spatial Impact Assessment</h5>
+              <p class="text-white-50 mb-0">Accurately account for geographic variations in environmental impacts</p>
+            </div>
+          </div>
+
+          <div class="feature-item d-flex align-items-start">
+            <div class="feature-icon-wrap">
+              <i class="las la-chart-line text-white" style="font-size: 2rem;"></i>
+            </div>
+            <div class="ms-4">
+              <h5 class="text-white mb-2">Prospective Calculations</h5>
+              <p class="text-white-50 mb-0">Predict future environmental impacts with evidence-based models</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 offset-lg-1 d-flex align-items-center">
+        <div class="cta-wrapper text-center w-100">
+          <h4 class="text-white mb-4">Ready to Get Started?</h4>
+          <a href="https://github.com/brightway-lca/brightway2" class="btn btn-white btn-lg mb-3 w-100">
+            <i class="lab la-github me-2"></i>View on GitHub
+          </a>
+          <a href="/brightway" class="btn btn-outline-light w-100">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cloud Teaser Integration -->
+    <div class="cloud-teaser-wrapper">
+      <div class="container">
+        <div class="cloud-teaser-box">
+          <div class="row g-0">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="coming-soon-content p-4 p-lg-5">
+                <div class="badge bg-accent text-white px-3 py-2 mb-4">Coming Soon</div>
+                <h3 class="display-6 mb-3">
+                  Brightway Cloud
+                  <span class="d-block h5 text-primary-soft mt-2">Cloud-Based Collaborative LCA Platform</span>
+                </h3>
+                <p class="lead mb-4">
+                  Transform your sustainability assessments with our cloud platform, designed for real-time collaboration, fast calculations, and seamless data integrations.
+                </p>
+                <div class="d-flex flex-wrap gap-3">
+                  <a href="/register-interest" class="btn btn-accent btn-lg">
+                    Register Interest
+                  </a>
+                  <a href="/brightway-cloud" class="btn btn-outline-primary btn-lg">
+                    Learn More
+                  </a>
                 </div>
-                <h5 class="mb-3">Real-Time Collaboration</h5>
-                <p>Enable your team to work together seamlessly, improving efficiency and reducing errors.</p>
               </div>
             </div>
-            <!-- Fast Cloud Calculations -->
-            <div class="col-md-4 mb-4">
-              <div class="feature-item">
-                <div class="icon mb-3">
-                  <i class="fas fa-cloud fa-3x text-primary"></i>
+            <div class="col-lg-6">
+              <div class="feature-cards-wrapper p-4 p-lg-5">
+                <div class="feature-card mb-4">
+                  <div class="d-flex align-items-start">
+                    <div class="feature-icon me-4">
+                      <i class="las la-users"></i>
+                    </div>
+                    <div class="feature-content">
+                      <h6>Real-Time Collaboration</h6>
+                      <p>Enable your team to work together seamlessly</p>
+                    </div>
+                  </div>
                 </div>
-                <h5 class="mb-3">Fast Cloud Calculations</h5>
-                <p>Leverage cloud computing for rapid computations without the need for high-end local hardware.</p>
-              </div>
-            </div>
-            <!-- Robust Data Security -->
-            <div class="col-md-4 mb-4">
-              <div class="feature-item">
-                <div class="icon mb-3">
-                  <i class="fas fa-lock fa-3x text-primary"></i>
+                <div class="feature-card mb-4">
+                  <div class="d-flex align-items-start">
+                    <div class="feature-icon me-4">
+                      <i class="las la-cloud"></i>
+                    </div>
+                    <div class="feature-content">
+                      <h6>Fast Cloud Calculations</h6>
+                      <p>Leverage cloud computing for rapid computations</p>
+                    </div>
+                  </div>
                 </div>
-                <h5 class="mb-3">Robust Data Security</h5>
-                <p>Control how and where your data is stored, ensuring compliance with organizational policies.</p>
+                <div class="feature-card">
+                  <div class="d-flex align-items-start">
+                    <div class="feature-icon me-4">
+                      <i class="las la-lock"></i>
+                    </div>
+                    <div class="feature-content">
+                      <h6>Robust Data Security</h6>
+                      <p>Control how and where your data is stored</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -167,26 +480,111 @@
     </div>
   </div>
 </section>
+<!--brightway end-->
 
-<!--key value proposation end-->
+<!--cta section start-->
+<section class="cta-section py-7 bg-gradient-light position-relative reveal">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8 text-center">
+        <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill mb-4">Get Started</span>
+        <h2 class="display-5 mb-4">Ready to Transform Your Sustainability Workflows?</h2>
+        <p class="lead text-secondary mb-5">Let's discuss how our expertise in LCA software and data solutions can help streamline your sustainability assessment processes.</p>
+        <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap">
+          <a href="contact.html" class="btn btn-primary btn-lg">
+            Schedule a Consultation
+          </a>
+          <a href="solutions.html" class="btn btn-outline-primary btn-lg">
+            Explore Solutions
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--cta section end-->
 
 <!--footer start-->
+<footer class="py-11 bg-primary position-relative">
+  <div class="container">
+    <div class="row g-5">
+      <!-- Newsletter Column -->
+      <div class="col-12 col-lg-4 mb-6 mb-lg-0">
+        <div class="bg-white rounded-3 p-5 h-100" id="newsletter-container">
+          <h4 class="text-primary mb-4">Stay Updated</h4>
+          <p class="text-secondary mb-4">Get the latest updates on <span class="text-primary fw-bold">Brightway</span> and other open sustainability developments.</p>
+          <form id="newsletter-form" class="group">
+            <div class="mb-3">
+              <input type="email" value="" name="email" class="form-control" id="mc-email" placeholder="Email Address" required>
+            </div>
+            <button class="btn btn-primary w-100" type="submit" name="subscribe">Subscribe</button>
+          </form>
+          <small class="text-secondary mt-3 d-block">We respect your privacy. Unsubscribe at any time.</small>
+        </div>
+      </div>
 
-<footer class="py-11 bg-primary position-relative" data-bg-img="assets/images/bg/03.png">
-  <div class="shape-1" style="height: 150px; overflow: hidden;">
-    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-      <path d="M0.00,49.98 C150.00,150.00 271.49,-50.00 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #fff;"></path>
-    </svg>
-  </div>
-  <div class="container mt-7">
-    <div class="row text-white text-center mt-8">
-      <div class="col">
-        <hr class="mb-8">Cauldron Solutions GmbH, Dorfsteig 8, 5223 Riniken, Switzerland
+
+      <!-- Quick Links -->
+      <div class="col-12 col-lg-8">
+        <div class="row g-5">
+          <!-- Solutions -->
+          <div class="col-12 col-sm-4 navbar-dark">
+            <h5 class="text-white mb-4">Solutions</h5>
+            <ul class="navbar-nav list-unstyled mb-0">
+              <li class="mb-3"><a class="nav-link" href="solutions.html#lca-migration">LCA Software Migration</a></li>
+              <li class="mb-3"><a class="nav-link" href="solutions.html#data-solutions">Data Solutions</a></li>
+              <li class="mb-3"><a class="nav-link" href="solutions.html#project-updates">Project Updates</a></li>
+              <li class="mb-3"><a class="nav-link" href="solutions.html#self-hosting">Self-Hosting Setup</a></li>
+              <li class="nav-item"><a class="nav-link" href="solutions.html#training">Training & Support</a></li>
+            </ul>
+          </div>
+
+          <!-- Company -->
+          <div class="col-12 col-sm-4 navbar-dark">
+            <h5 class="text-white mb-4">Company</h5>
+            <ul class="navbar-nav list-unstyled mb-0">
+              <li class="mb-3"><a class="nav-link" href="about.html">About Us</a></li>
+              <li class="mb-3"><a class="nav-link" href="expertise.html">Our Expertise</a></li>
+              <li class="mb-3"><a class="nav-link" href="brightway.html">Brightway</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Legal -->
+          <div class="col-12 col-sm-4 navbar-dark">
+            <h5 class="text-white mb-4">Legal</h5>
+            <ul class="navbar-nav list-unstyled mb-0">
+              <li class="mb-3"><a class="nav-link" href="privacy.html">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="row mt-5 pt-5 border-top border-white border-opacity-10">
+          <div class="col-12 col-sm-6">
+            <a class="footer-logo text-white h2 mb-0" href="index.html">
+              <span class="fw-bold">Cauldron.</span>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+            <ul class="list-inline mb-0 text-end">
+              <li class="list-inline-item"><a class="text-light ic-2x" href="#"><i class="lab la-github"></i></a></li>
+              <li class="list-inline-item"><a class="text-light ic-2x" href="#"><i class="lab la-twitter"></i></a></li>
+              <li class="list-inline-item"><a class="text-light ic-2x" href="#"><i class="lab la-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row text-white text-center mt-5">
+          <div class="col">
+            <p class="mb-0 text-white-50">© 2024 Cauldron Solutions. All rights reserved.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </footer>
-
 <!--footer end-->
 
 </div>
@@ -202,14 +600,39 @@
 
 <!-- inject js start -->
 
-<script src="js/theme-plugin.js"></script>
-<script src="js/theme-script.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="assets/js/theme-plugin.js"></script>
+<script src="assets/js/theme-script.js"></script>
+<script src="assets/js/scroll-animations.js"></script>
 
+<script>
+(function () {
+  document.getElementById("newsletter-form").addEventListener('submit', function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    const formData = new FormData();
+    formData.append("token", "not-really-all-that-secret");
+    formData.append("email", document.getElementById("mc-email").value);
+
+    try {
+      fetch("https://contact.cauldron.ch/newsletter", {
+        method: "POST",
+        body: formData,
+      }).then((response) => {
+        console.log(response);
+        if (response.status == 200) {
+          document.getElementById("newsletter-container").innerHTML = "<h4 class=\x22text-primary mb-4\x22>Thanks!</h4><p class=\x22text-secondary mb-4\x22>We've sent a confirmation email, and are looking forward to keeping you up to date with our products and services!</p>";
+        }
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  });
+})();
+</script>
 <!-- inject js end -->
 
 </body>
 
 </html>
+
